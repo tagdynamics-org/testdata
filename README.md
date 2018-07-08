@@ -2,8 +2,7 @@
 
 Various (largish) test files for testing. These are stored in this separate repo so as not to bloat the actual code repos.
 
-These files are used by:
- - [osm-streamer](https://github.com/tagdynamics-org/osm-streamer)
+See repos linked below for further detail about these test files.
 
 ## Recreating the test files
 
