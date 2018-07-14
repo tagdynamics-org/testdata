@@ -29,3 +29,13 @@ npm install
 npm run tag-extract --tags=k1,k2,k3 --input-file=../1-synth-osm-data.xml --output-file=../2-extracted-osm-metadata.jsonl
 cd ..
 ```
+
+## `3-aggregates/*`
+
+Compute various aggregates from `2-extracted-osm-metadata.jsonl`:
+
+```bash
+rm -rf 3-aggregates # remove any old test data
+bash make-aggregated-testdata.sh
+rm -rf osm-tag-aggregator # cleanup
+```
